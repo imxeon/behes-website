@@ -2,7 +2,7 @@
 IMPORT
 ******************************************/
 
-@font-face {
+/* @font-face {
     font-family: "Flaticon";
     src: url("fonts/Flaticon.eot");
     src: url("fonts/Flaticon.eot?#iefix") format("embedded-opentype"), url("fonts/Flaticon.woff") format("woff"), url("fonts/Flaticon.ttf") format("truetype"), url("fonts/Flaticon.svg#Flaticon") format("svg");
@@ -79,7 +79,7 @@ IMPORT
 
 .flaticon-html-coding:before {
     content: "\f10d";
-}
+} */
 
 
 /******************************************
@@ -101,7 +101,6 @@ a {
 }
 
 .calendar-details h4 a,
-.readmore,
 .testimonial strong,
 h1,
 h2,
@@ -121,10 +120,10 @@ h6 {
     line-height: 1.5;
 }
 
-.cop-logo img,
-a {
+.cop-logo img, a {
     color: #000;
     text-decoration: none !important;
+    /* text-decoration: none; */
     -webkit-transition: all ease 0.3s;
     -moz-transition: all ease 0.3s;
     transition: all ease 0.3s;
@@ -197,7 +196,7 @@ HEADER
 
 .topbar {
     background-color: #000;
-    margin-bottom: 30px;
+    margin-bottom: 17px;
     padding: 12px 0 14px;
 }
 
@@ -349,6 +348,14 @@ HEADER
 
 .social a.linkedin {
     background-color: #0077b5;
+}
+
+.social a.instagram {
+    background-color: #fe246d;
+}
+
+.social a.youtube {
+    background-color: #bb0707;
 }
 
 .modal {
@@ -1093,6 +1100,7 @@ SECTIONS
     display: block;
     padding: 20px 0 35px;
     margin: 0;
+    color: rgb(206, 204, 204);
 }
 
 .nopadtop {
@@ -1104,6 +1112,9 @@ SECTIONS
     padding: 4rem;
     position: relative;
     z-index: 11;
+    border: 2px solid rgb(217, 217, 217);
+    border-radius: 16px;
+    margin-bottom: 40px;
 }
 
 .box p {
@@ -1129,18 +1140,13 @@ SECTIONS
     margin-top: -60px;
 }
 
-.readmore {
-    font-weight: 700;
-    font-size: 15px;
-}
-
-.readmore:after {
+/* .readmore:after {
     content: "\f107";
     vertical-align: middle;
     padding-left: 5px;
     font-family: "Flaticon";
     font-size: 11px;
-}
+} */
 
 .image-box {
     position: relative;
@@ -1183,11 +1189,13 @@ COURSE MODULES
     border-radius: 6px 6px 0 0;
     background-color: #ffffff;
     border: 1px solid #eaeaea;
+    /* border: 1px solid #fbc97a; */
+    border-radius: 10px;
 }
 
 .course-box img {
     border-radius: 6px 6px 0 0;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .calendar-details {
@@ -1253,8 +1261,12 @@ COURSE MODULES
 }
 
 .course-footer {
-    border-top: 1px solid #eaeaea;
+    background-color: rgb(252, 225, 127);
+    border-bottom: 5px solid rgb(224, 198, 7);
     padding: 15px;
+    border-radius: 5px;
+    color: #000;
+    font-size: 3rem;
 }
 
 .course-footer .pull-right a {
@@ -1525,6 +1537,9 @@ BLOG
 
 .image-wrap img {
     width: 100%;
+    /* width: 200px; */
+    display: block;
+    text-align: center;
 }
 
 .image-wrap:after {
@@ -1599,7 +1614,12 @@ BLOG
     margin: 0;
 }
 
-.stat-count h3,
+/* .stat-count h3,
+.stat-count h4 {
+    color: #ffffff;
+} */
+
+
 .stat-count h4 {
     color: #ffffff;
 }
@@ -1612,7 +1632,7 @@ BLOG
 }
 
 .stat-count h3 {
-    padding: 30px 0 25px;
+    padding: 10px 0 25px;
     margin: 0;
     line-height: 1;
     font-size: 20px;
@@ -1643,7 +1663,8 @@ TESTIMONIAL
 ******************************************/
 
 .testimonial {
-    border: 1px solid #eaeaea;
+    border: 1px solid #cac9c9;
+    border-radius: 35px;
 }
 
 .testimonial p {
@@ -1656,9 +1677,21 @@ TESTIMONIAL
     font-size: 18px;
     display: block;
     padding-bottom: 0;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    margin-left: 0px;
+    /* margin-bottom: 7px; */
     margin-top: 0px;
+}
+
+.designation {
+    display: block;
+    color: #696969;
+    font-weight: 800;
+    font-size: 14px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-style: italic;
+    /* width: 230px; */
+    width: 80%;
 }
 
 .testimonial p.testiname strong {
@@ -1694,7 +1727,7 @@ TESTIMONIAL
 }
 
 .testimonial .rating {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .rating {
@@ -1722,7 +1755,8 @@ TESTIMONIAL
     padding: 0;
     font-size: 34px;
     margin: 0;
-    color: #d1d1d1e5;
+    /* color: #d1d1d1e5; */
+    color: #f4ae0bf0;
     font-weight: bold;
 }
 
@@ -2015,6 +2049,15 @@ FOOTER
     margin-top: 5px;
 }
 
+#debate-coach {
+    color: #f6b318;
+    font-weight: 700;
+}
+
+#debate-coach-arrow {
+    color: #f6b318;
+}
+
 .footer .form-control,
 .footer p,
 .footer a {
@@ -2082,6 +2125,18 @@ BUTTONS
 .btn-transparent {
     color: #ffffff;
     border: 1px solid #fff;
+}
+
+.readmore {
+    font-weight: 700;
+    font-size: 15px;
+    color: rgb(154, 154, 152);
+    border-bottom: 3px solid #a9a8a8;
+}
+
+.readmore:hover {
+    cursor: pointer;
+    border-bottom: 3px solid #f6b318;
 }
 
 
@@ -2163,7 +2218,7 @@ a:hover,
 a:focus,
 .box i,
 .topbar .text-left i {
-    color: #01bacf;
+    /* color: #01bacf; */
     color: #ffc300;
 }
 
@@ -2200,8 +2255,8 @@ mark,
     -moz-transition: all ease 0.5s;
     transition: all ease 0.5s; */
 
-
-    border-color: #ffc300;;
+    border-radius: 3px;
+    border-color: #ffda61;
     background-color: #ffc300;
     box-shadow: inset 0 0 0 0 #ffc300;
     -webkit-transition: all ease 0.5s;
@@ -2213,8 +2268,8 @@ mark,
 .tags-widget a:hover,
 .btn-primary:hover {
     color: #ffffff !important;
-    box-shadow: inset 0 100px 0 0 #00a8bd;
-    border-color: #00a8bd;
+    box-shadow: inset 0 100px 0 0 #d8a707;
+    border-color: #ffda61;
 }
 
 
@@ -2228,7 +2283,8 @@ COLOR GREEN
 }
 
 .btn-default {
-    border-color: #82b440;
+    border-color: #8fc050;
+    border-radius: 3px;
     background-color: #82b440;
     box-shadow: inset 0 0 0 0 #74a632;
     -webkit-transition: all ease 0.5s;
