@@ -26,10 +26,10 @@ function count($this) {
 // });
 // original code ends
 
-// School timer
-$(".school-timer").each(function () {
+// Country timer
+$(".country-timer").each(function () {
   $(this).data("count", parseInt($(this).html(), 10));
-  $(this).html("2700");
+  $(this).html("0");
   count($(this));
 });
 
@@ -40,12 +40,19 @@ $(".city-timer").each(function () {
   count($(this));
 });
 
-// student timer
-$(".student-timer").each(function () {
+// School timer
+$(".school-timer").each(function () {
   $(this).data("count", parseInt($(this).html(), 10));
-  $(this).html("19700");
+  $(this).html("2700");
   count($(this));
 });
+
+// student timer
+// $(".student-timer").each(function () {
+//   $(this).data("count", parseInt($(this).html(), 10));
+//   $(this).html("19700");
+//   count($(this));
+// });
 
 $(".header").affix({
   offset: {

@@ -21,8 +21,8 @@
     <meta name="author" content="" />
 
     <!-- Site Icons -->
-    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+    <link rel="shortcut icon" href="images/favicon.jpg" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.jpg" />
 
     <!-- Google Fonts -->
     <link
@@ -39,7 +39,7 @@
     <link rel="stylesheet" href="css/font-awesome.min.css" />
     <link rel="stylesheet" href="css/carousel.css" />
     <link rel="stylesheet" href="css/animate.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
 
     <!--[if lt IE 9]>
       <script src="js/vendor/html5shiv.min.js"></script>
@@ -49,7 +49,7 @@
   <body>
     <!-- LOADER -->
     <div id="preloader">
-      <img class="preloader" src="images/loader.gif" alt="" />
+      <img class="preloader" src="images/loader.gif" alt="preloader-image" />
     </div>
     <!-- end loader -->
     <!-- END LOADER -->
@@ -194,14 +194,18 @@
               </button>
               <div class="logo-normal">
                 <a class="navbar-brand" href="index.html"
-                  ><img src="images/logo.png" alt="Behes-logo"
+                  ><img src="images/logo-light.png" alt="Behes-logo"
                 /></a>
               </div>
             </div>
 
             <div id="navbar" class="navbar-collapse collapse">
-              <ul class="nav navbar-nav navbar-right">
+              <ul class="nav navbar-nav navbar-right homepage-header-bg">
                 <li><a href="index.html">Home</a></li>
+                <!-- <li><a href="#calendar">Calendar</a></li> -->
+                <li><a href="blogs/blogs-news.html">Blogs & News</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+                <li><a href="contact.html">Contact</a></li>
 
                 <!-- MEGA MENU NAV ITEM DISABLED -->
                 <!-- <li class="dropdown yamm-fw yamm-half"><a href="#" data-toggle="dropdown" class="dropdown-toggle active">Mega Menu <b class="fa fa-angle-down"></b></a>
@@ -221,10 +225,6 @@
                                     </li>
                                 </ul>
                             </li> -->
-
-                <!-- CALENDAR NAV ITEM -->
-                <li><a href="calendar.html">Calendar</a></li>
-
 
 
                 <!-- SHOP NAV ITEM SUB MENU PAGE -->
@@ -266,8 +266,6 @@
                   </ul>
                 </li> -->
 
-                <li><a href="page-contact.html">Contact</a></li>
-
 
 
                 <!-- SEARCH TOOL NAV ITEM -->
@@ -297,7 +295,7 @@
         <div class="overlay"></div>
         <div class="home-text-wrapper relative container">
           <div class="home-message">
-            <p>Behes - Debate For All</p>
+            <p>Behes - Debate For All !</p>
             <small>
               For over 10 long years now, Behes has been giving shape to the Indian debate scene by empowering students to become articulate leaders, master the art of persuasion and excel in both academic and real-world settings.
               <br>
@@ -306,7 +304,7 @@
             </small>
             <div class="btn-wrapper">
               <div class="text-center">
-                <a href="calendar.html" class="btn btn-primary wow slideInLeft"
+                <a href="#calendar" class="btn btn-primary wow slideInLeft"
                   >Calendar</a
                 >
                 &nbsp;&nbsp;<a
@@ -396,7 +394,7 @@
         <!-- end container -->
       </section>
 
-      <section class="section gb">
+      <section id="calendar" class="section gb">
         <div class="container">
           <div class="section-title text-center">
             <h3>Calendar</h3>
@@ -766,9 +764,10 @@
 
           <hr class="invis" />
 
-          <div class="section-button text-center">
+          <!-- <div class="section-button text-center">
             <a href="calendar.html" class="btn btn-primary">View all</a>
-          </div>
+          </div> -->
+
         </div> <!-- end div container -->
       </section>
 
@@ -776,6 +775,37 @@
       <section class="section db">
         <div class="container">
           <div class="row">
+
+            <div class="col-lg-4 col-md-4">
+              <div class="stat-count">
+                <h4 class="country-timer">7</h4>
+                <!-- <h3><i class="flaticon-coffee-cup"></i> Students+</h3> -->
+                <h3>Countries</h3>
+                <p>
+                  Footprints across 7+ nations around the globe.
+                </p>
+              </div>
+              <!-- stat-count -->
+            </div>
+            <!-- end col -->
+             
+
+
+            <div class="col-lg-4 col-md-4">
+              <div class="stat-count">
+                <h4 class="city-timer">50</h4>
+                <!-- <h3><i class="flaticon-online-course"></i>Cities+</h3> -->
+                <h3>Cities</h3>
+                <p>
+                  Spanning 50+ cities nationwide.
+                </p>
+              </div>
+              <!-- stat-count -->
+            </div>
+            <!-- end col -->
+
+
+
             <div class="col-lg-4 col-md-4">
               <div class="stat-count">
                 <h4 class="school-timer">3000</h4>
@@ -785,7 +815,7 @@
                   ></i>
                   Schools+
                 </h3> -->
-                <h3> Schools+</h3>
+                <h3> Schools</h3>
                 <p>
                   Engaging over 3000 schools in vibrant debate.
                 </p>
@@ -794,31 +824,6 @@
             </div>
             <!-- end col -->
 
-            <div class="col-lg-4 col-md-4">
-              <div class="stat-count">
-                <h4 class="city-timer">50</h4>
-                <!-- <h3><i class="flaticon-online-course"></i>Cities+</h3> -->
-                <h3>Cities+</h3>
-                <p>
-                  Spanning 50+ cities nationwide.
-                </p>
-              </div>
-              <!-- stat-count -->
-            </div>
-            <!-- end col -->
-
-            <div class="col-lg-4 col-md-4">
-              <div class="stat-count">
-                <h4 class="student-timer">20000</h4>
-                <!-- <h3><i class="flaticon-coffee-cup"></i> Students+</h3> -->
-                <h3>Students+</h3>
-                <p>
-                  Inspiring 20,000+ young debaters.
-                </p>
-              </div>
-              <!-- stat-count -->
-            </div>
-            <!-- end col -->
           </div>
           <!-- end row -->
         </div>
@@ -954,7 +959,9 @@
             <div class="col-md-12">
               <div class="tagline-message text-center">
                 <h3>
-                  "At Behes, We Spark Revolutions. We’re crafting daring thinkers and building the next wave of trailblazers through electrifying debates whilst still instilling ideas that ground you. It’s not just about winning an argument—it’s about mastering the art of remaining curious….till eternity and beyond."
+                  <em>
+                    "At Behes, We Spark Revolutions. We’re crafting daring thinkers and building the next wave of trailblazers through electrifying debates whilst still instilling ideas that ground you. It’s not just about winning an argument—it’s about mastering the art of remaining curious….till eternity and beyond."
+                  </em>
                 </h3>
               </div>
             </div>
@@ -1014,7 +1021,7 @@
                 <p class="testiname">
                   <strong>
                     <img
-                      src="images/testimonials/Sunanda-Sandhir.jpg"
+                      src="images/testimonials/sunanda-sandhir.jpg"
                       alt="Sunanda Sandhir"
                       class="img-circle"
                     />
@@ -1227,7 +1234,7 @@
                     >
                   </h4>
                   <p>
-                    Attending the Behes Boot Camp was honestly one of the best experiences of my life. I went in thinking it was just going to be about learning how to debate, but it turned out to be so much more. It helped me find my voice, think outside the box, and step out of my comfort zone.
+                    Attending the Behes Boot Camp was honestly one of the best experiences of my life. I went in thinking it was just going to be about learning how to debate, but it turned out to be so much more.
                   </p>
                 </div>
                 <!-- end blog-desc -->
@@ -1309,7 +1316,7 @@
                   Partner with Behes to inspire the next generation of thinkers and leaders. Join us in shaping minds across India with a decade of impactful programs.
                 </p>
                 <a href="https://forms.gle/iVDYvrtG91mrCQbH8"
-                id="debate-coach" target="_blank">Become a Debate Coach </a><i id="debate-coach-arrow" class=" fa fa-arrow-right"></i>
+                id="work-with-us" target="_blank">Work With Us </a><i id="work-with-us-arrow" class=" fa fa-arrow-right"></i>
               </div>
               <!-- end widget -->
             </div>
@@ -1361,7 +1368,7 @@
           <div class="clearfix">
             <div class="pull-left">
               <div class="cop-logo">
-                <a href="#"><img src="images/logo.png" alt="" /></a>
+                <a href="#"><img src="images/logo-light.png" alt="behes-logo" /></a>
               </div>
             </div>
 
