@@ -47,7 +47,7 @@ $(".school-timer").each(function () {
   count($(this));
 });
 
-// student timer
+// student timer (if needed later)
 // $(".student-timer").each(function () {
 //   $(this).data("count", parseInt($(this).html(), 10));
 //   $(this).html("19700");
@@ -68,9 +68,43 @@ $(window).load(function () {
   $(".preloader").on(600).fadeOut("slow");
 });
 
+
+
+
+// Results button
+
+function notAva() {
+  let resultsButton = document.getElementById("result");
+  if (resultsButton.innerHTML === "Results") {
+    resultsButton.innerHTML = "Not available"
+    resultsButton.style.backgroundColor = "#82b440";
+  } else {
+    resultsButton.innerHTML = "Results"
+  }
+}
+
+// BLACK TRANSPARENT NAVBAR
+
+let tmpBlackNavbar = document.getElementById("black-transparent-navbar-wrapper")
+let hamButton = document.getElementById("hamBtn")
+hamButton.addEventListener("click", blackTransNavbar);
+
+function blackTransNavbar() {
+
+  if (tmpBlackNavbar.style.backgroundColor === "black") {
+    tmpBlackNavbar.style.backgroundColor = "transparent";
+    // tmpBlackNavbar.style.paddingTop = "17px";
+  } else {
+    tmpBlackNavbar.style.backgroundColor = "black";
+  }
+}
+
+
+
+
 // READ MORE FUNCTIONALITY
 
-// HOST A REGIONAL BEHES ROUND
+// 1. HOST A REGIONAL BEHES ROUND
 
 function regionalBehesReadMore() {
   let moreText = document.getElementById("regional-behes-round");
@@ -85,7 +119,7 @@ function regionalBehesReadMore() {
   }
 }
 
-// BECOME A SPONSOR
+// 2. BECOME A SPONSOR
 
 function becomeSponsorReadMore() {
 	let moreText = document.getElementById("become-sponsor");
@@ -101,7 +135,7 @@ function becomeSponsorReadMore() {
   }
 
   
-// VOLUNTEER WITH BEHES
+// 3. VOLUNTEER WITH BEHES
 
 function volunteerBehesReadMore() {
 	let moreText = document.getElementById("volunteer-with-behes");
@@ -117,7 +151,7 @@ function volunteerBehesReadMore() {
   }
 
   
-// SPREAD THE WORD
+// 4. SPREAD THE WORD
 
 function spreadTheWordReadMore() {
 	let moreText = document.getElementById("spread-the-word");

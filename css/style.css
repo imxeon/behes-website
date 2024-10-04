@@ -195,7 +195,7 @@ HEADER
 ******************************************/
 
 .topbar {
-    background-color: #000000;
+    background-color: rgb(0, 0, 0);
     margin-bottom: 17px;
     padding: 12px 0 14px;
 }
@@ -230,6 +230,15 @@ HEADER
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
+
+/* BLACK TRANSPARENT NAVBAR WRAPPER */
+
+#black-transparent-navbar-wrapper {
+    padding-top: 17px;
+    margin-top: -1px;
+}
+
+/* END */
 
 .header.without-topbar {
     padding: 30px 0;
@@ -361,7 +370,7 @@ HEADER
 }
 
 .social a.youtube {
-    background-color: #bb0707;
+    background-color: #b20707;
 }
 
 .modal {
@@ -1221,7 +1230,7 @@ COURSE MODULES
 }
 
 .course-details {
-    padding: 3rem 2rem;
+    padding: 2rem 1.5rem;
 }
 
 .calendar-details {
@@ -1414,6 +1423,13 @@ WIDGETS
 /************************************
 BLOG
 ************************************/
+@media (min-width: 1200px) {
+
+    #blog-news-page .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
 
 .site-publisher img {
     float: left;
@@ -1650,6 +1666,8 @@ BLOG
     margin: 0;
 }
 
+/* HOMEPAGE STATS */
+
 .stat-count h4 {
     color: #ffffff;
 }
@@ -1659,6 +1677,7 @@ BLOG
     line-height: 1;
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 
 .stat-count h3 {
@@ -1666,6 +1685,7 @@ BLOG
     margin: 0;
     line-height: 1;
     font-size: 20px;
+    text-align: center;
 }
 
 .stat-count h3 i {
@@ -1676,7 +1696,9 @@ BLOG
 
 .stat-count p {
     padding: 0;
-    margin: 0;
+    margin: auto;
+    text-align: center;
+    width: 250px;
     font-size: 16px;
     font-family: 'Droid Serif', sans-serif;
     font-style: italic;
@@ -1974,6 +1996,31 @@ SHOP
     font-size: 20px;
     padding-bottom: 10px;
 }
+
+
+/******************************************
+FAQS
+******************************************/
+
+.faq ol li {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: rgb(60, 60, 60);
+}
+
+.faq ol li h3 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: rgb(44, 44, 44);
+}
+
+.faq ol li p {
+    margin-top: 25px;
+    font-size: 1.8rem;
+    color: rgb(92, 92, 92);
+    font-weight: 500;
+}
+
 
 
 /******************************************
@@ -2362,7 +2409,26 @@ RESPONSIVE
     }
 }
 
+/* 
+@media (max-width: 767px) {
+
+    .black-transparent-navbar-wrapper {
+        background-color: rgba(0, 0, 0, 0.962);
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+} 
+    */
+
+@media (max-width: 426px) {
+    .boxed {
+        padding: 3rem 1.5rem 1rem;
+    }
+}
+
+
 @media (max-width: 768px) {
+
     .shop-extra .nav-tabs>li>a,
     .shop-extra .nav-tabs>li {
         float: none;
