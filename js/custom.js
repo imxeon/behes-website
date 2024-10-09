@@ -85,8 +85,8 @@ function notAva() {
 
 // BLACK TRANSPARENT NAVBAR
 
-let tmpBlackNavbar = document.getElementById("black-transparent-navbar-wrapper")
-let hamButton = document.getElementById("hamBtn")
+let tmpBlackNavbar = document.getElementById("black-transparent-navbar-wrapper");
+let hamButton = document.getElementById("hamBtn");
 hamButton.addEventListener("click", blackTransNavbar);
 
 function blackTransNavbar() {
@@ -190,8 +190,8 @@ function salilReadMore() {
 	let btnText = document.getElementById("salil-button");
   
 	if (moreText.style.display === "none") {
-	  moreText.style.display = "block";
 	  btnText.innerHTML = "Read less";
+	  moreText.style.display = "block";
 	} else {
 	  btnText.innerHTML = "Read more";
 	  moreText.style.display = "none";
