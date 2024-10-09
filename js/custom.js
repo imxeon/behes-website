@@ -181,3 +181,19 @@ function ankonTestimonialReadMore() {
 	  moreText.style.display = "none";
 	}
   }
+
+  
+// TEAMS PAGE
+
+function salilReadMore() {
+	let moreText = document.getElementById("salil-read-more");
+	let btnText = document.getElementById("salil-button");
+  
+	if (moreText.style.display === "none") {
+	  moreText.style.display = "block";
+	  btnText.innerHTML = "Read less";
+	} else {
+	  btnText.innerHTML = "Read more";
+	  moreText.style.display = "none";
+	}
+  }

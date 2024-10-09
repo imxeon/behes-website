@@ -1295,7 +1295,7 @@ COURSE MODULES
 .course-footer ul {
     padding-bottom: 0;
     margin-bottom: 0;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .course-footer a {
@@ -1309,7 +1309,9 @@ COURSE MODULES
 .course-footer {
     /* background-color: rgb(252, 225, 127); */
     /* border-bottom: 5px solid rgb(224, 198, 7); */
+    text-align: center;
     padding: 15px;
+    padding-top: 5px;
     border-radius: 5px;
     color: #000;
     font-size: 3rem;
@@ -1423,13 +1425,13 @@ WIDGETS
 /************************************
 BLOG
 ************************************/
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
 
     #blog-news-page .row {
         margin-left: 0;
         margin-right: 0;
     }
-}
+} */
 
 .site-publisher img {
     float: left;
@@ -1664,6 +1666,22 @@ BLOG
 .blog-desc p {
     padding: 0;
     margin: 0;
+}
+
+/* BLOG-IMAGE AND SNIPPET */
+
+.blog-image {
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+    /* object-position: top; */
+    /* border: 2px solid red; */
+}
+
+.blog-snippet {
+    height: 280px;
+    overflow: hidden;
+    /* padding-bottom: 10px; */
 }
 
 /* HOMEPAGE STATS */
@@ -2375,6 +2393,80 @@ COLOR GREEN
     border-color: #74a632;
 }
 
+
+/******************************************
+TEAM PAGE
+******************************************/
+.top-space {
+    margin-top: 5rem;
+}
+
+.head-profile {
+    margin: auto;
+    float: none;
+}
+
+.head-team-profile-box {
+    padding: 2.5rem;
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgb(234, 232, 232);
+}
+
+.team-profile-box {
+    /* padding: 2.5rem; */
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 15px;
+    /* box-shadow: 0 0 15px rgb(234, 232, 232); */
+}
+
+.team-profile-box img {
+    border-radius: 8px;
+    width: 100%;
+    max-width: 330px;
+}
+
+.team-profile-information h2, h3 {
+    margin-bottom: 0;
+}
+
+.team-profile-information {
+    padding: 1rem;
+}
+
+.job-title {
+    font-size: 1.4rem;
+    color: #ffb300;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+#salil-read-more {
+    display: none;
+}
+
+
+.team-profile-information button {
+    border: 1px solid #f4af0b;
+    background-color: rgb(253, 191, 45);
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.team-profile-information button:hover {
+    border: 1px solid #f4af0b;
+    background-color: #e9a301;
+    color: #f5f5f5;
+    border-radius: 5px;
+}
+
+.team-profile-information button:active {
+    border: 1px solid #f4af0b;
+    background-color: white;
+    color: #f4af0b;
+    border-radius: 5px;
+}
 
 /******************************************
 RESPONSIVE
