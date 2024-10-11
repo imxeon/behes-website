@@ -1,5 +1,3 @@
-
-
 /******************************************
 SKELETON
 ******************************************/
@@ -1796,6 +1794,33 @@ TESTIMONIAL
 }
 
 /******************************************
+YELLOW BAND
+******************************************/
+
+/* LINK */
+
+#band-link-icon {
+  font-size: 3rem;
+}
+
+#yellow-band-link {
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: rgb(40, 40, 40);
+}
+
+#yellow-band-link:hover {
+  font-size: 4rem;
+  color: black;
+  text-decoration: underline !important;
+}
+
+#yellow-band-link:active {
+  color: rgb(255, 255, 255);
+}
+
+/******************************************
 SHOP
 ******************************************/
 
@@ -2448,6 +2473,46 @@ RESPONSIVE
 @media (max-width: 468px) {
   .blog-meta h3 {
     font-size: 20px;
+  }
+
+  /* COURSE-BOX FIXED DIMENSION MOBILE DEVICES */
+
+  .fixed-dimension {
+    height: 650px;
+  }
+
+  /******************************************
+  YELLOW BAND
+  ******************************************/
+
+  /* LINK */
+
+  #band-link-icon {
+    font-size: 2.2rem;
+  }
+
+  #yellow-band-link {
+    color: rgb(40, 40, 40);
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+
+  #yellow-band-link:hover {
+    font-size: 2.7rem;
+    color: black;
+    text-decoration: underline !important;
+  }
+
+  #yellow-band-link:active {
+    color: rgb(255, 255, 255);
+  }
+}
+
+@media (min-width: 800px) {
+  /* COURSE-BOX FIXED DIMENSION */
+  .fixed-dimension {
+    height: 550px;
   }
 }
 
