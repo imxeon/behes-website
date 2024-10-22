@@ -1,0 +1,87 @@
+body {
+    font-family: roboto;
+    /* background-color: rgb(243, 243, 243); */
+    /* background-image: url(../images/bg-wall.jpg); */
+    /* font-weight: 400; */
+}
+
+/* NAVBAR */
+
+nav {
+    background-color: rgb(241, 241, 241);
+    border-bottom: 5px solid #1f75ac;
+    font-weight: 400;
+}
+
+/* NAVBAR-END */
+
+header {
+    border-bottom: 5px solid #1f75ac;
+}
+
+#header-img {
+    width: 100%;
+    max-width: 800px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+main {
+    background-color: rgba(248, 248, 248, 0.944);
+    background-image: url(../images/dot-grid.webp);
+    border-radius: 25px;
+    /* margin-top: 10px; */
+    /* padding: 20px 0px; */
+    border: 2px dashed rgb(177, 195, 230);
+    /* add animation in border of main */
+    /* box-shadow: 0px 0px 7px rgb(203, 202, 202); */
+}
+
+main h1 {
+    font-size: 3rem;
+    color: #0d4a87;
+    font-family: "Jersey 20 Charted", sans-serif;
+}
+
+main small {
+    color: #8fc2e0;
+    font-weight: 500;
+}
+
+#form-heading, h2 {
+    /* margin: auto; */
+    /* text-align: center; */
+    color: #03456e;
+    border-radius: 4px;
+    /* padding: 5px; */
+    font-weight: 600;
+    background-color: #9dd3f5;
+    /* width: 80%; */
+}
+
+#form-list {
+    /* margin: 22px auto 0 auto; */
+    list-style-type: none;
+    width: 85%;
+}
+
+#form-list i, #details i, #contact i {
+    color: rgb(117, 116, 116);
+    font-size: 20px;
+}
+
+#form-list a {
+    color: #209dea;
+    color: rgb(105, 104, 104);
+    font-size: 17px;
+    text-decoration: none;
+}
+
+/* #contact i {
+    display: block;
+    text-align: center;
+    margin: auto;
+    font-size: 70px;
+    color: rgb(76, 75, 75)
+} */
