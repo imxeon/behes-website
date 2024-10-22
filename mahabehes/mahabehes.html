@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#E49B0F" />
+    <meta name="theme-color" content="#03456e" />
     <link rel="shortcut icon" href="images/favicon.jpg" type="image/x-icon" />
     <link rel="apple-touch-icon" href="images/apple-touch-icon.jpg" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -29,7 +29,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-sm fixed-top">
+      <nav class="navbar navbar-expand-md fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="../index.html">
             <img src="images/m-behes-logo.png" alt="Behes festive logo" />
@@ -70,7 +70,9 @@
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#registration-forms">Registration</a>
+                  <a class="nav-link" href="#registration-forms"
+                    >Registration</a
+                  >
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#details">Details</a>
@@ -79,14 +81,7 @@
                   <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#the-ball">
-                    <img
-                      src="images/disco-ball.gif"
-                      alt="disco-ball"
-                      style="width: 25px"
-                      title="The Ball"
-                    />
-                  </a>
+                  <a class="nav-link" href="#the-ball">The Ball</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#contact">Contact</a>
@@ -123,92 +118,100 @@
       <img
         id="header-img"
         src="images/mahabehes-winter-image.jpg"
-        src="images/bg-wall.jpg"
         alt="mahabehes winter image"
       />
     </header>
     <div class="container">
-      <main class="py-4 my-3">
+      <main class="py-3 my-3 mx-auto d-sm-flex justify-content-around">
         <div class="row">
           <!-- row begins -->
           <div class="text-center">
             <h1>Prepare for the maha-est BEHES there is!</h1>
             <small class="d-block">Happening this winter</small>
+            <div class="mt-5">
+              <img
+                class="w-75 d-block mx-auto mt-5"
+                src="images/logo-black-vector.png"
+                alt="behes mic logo"
+                style="max-width: 520px"
+              />
+            </div>
           </div>
-          <div>
-            <img class="w-50 d-block mx-auto mt-4" src="images/logo-black-vector.png" alt="behes mic logo">
-          </div>
-          <div id="registration-forms" class="mt-5">
+          <div
+            id="registration-forms"
+            class="mt-4 mt-sm-0 mt-lg-2 col-lg-9 mx-auto"
+          >
             <h2 id="form-heading" class="p-1 mx-auto text-center w-75">
               Registration Forms
             </h2>
-            <ul class="mt-3" id="form-list">
-              <li>
-                <i class="bi bi-link-45deg"></i>
-                <a href="">Cubs Registration</a>
-              </li>
-              <li>
-                <i class="bi bi-link-45deg"></i>
-                <a href="">Lions Registration</a>
-              </li>
-              <li>
-                <i class="bi bi-link-45deg"></i>
-                <a href="">School Registration</a>
-              </li>
-              <li>
-                <i class="bi bi-link-45deg"></i>
-                <a href="">Vote For This Year's Behes Spirit Award</a>
-              </li>
-              <li>
-                <i class="bi bi-link-45deg"></i>
-                <a href="">Wild Card Applications Here</a>
-              </li>
-              <li>
-                <i class="bi bi-link-45deg"></i>
-                <a href="">Find A Team Here</a>
-              </li>
-              <li>
-                <i class="bi bi-link-45deg"></i>
-                <a href="">Adjudicator Applications Here</a>
-              </li>
-              <li>
-                <i class="bi bi-link-45deg"></i>
-                <a href="">Volunteer Applications Here</a>
-              </li>
-              <li>
-                <i class="bi bi-link-45deg"></i>
-                <a href="">Open Mic Registration Here</a>
-              </li>
-            </ul>
+            <div class="mt-3 mt-lg-5 mx-auto w-75">
+              <ul class="mt-3" id="form-list">
+                <li>
+                  <i class="bi bi-link-45deg"></i>
+                  <a href="">Cubs Registration</a>
+                </li>
+                <li>
+                  <i class="bi bi-link-45deg"></i>
+                  <a href="">Lions Registration</a>
+                </li>
+                <li>
+                  <i class="bi bi-link-45deg"></i>
+                  <a href="">School Registration</a>
+                </li>
+                <li>
+                  <i class="bi bi-link-45deg"></i>
+                  <a href="">Vote For This Year's Behes Spirit Award</a>
+                </li>
+                <li>
+                  <i class="bi bi-link-45deg"></i>
+                  <a href="">Wild Card Applications Here</a>
+                </li>
+                <li>
+                  <i class="bi bi-link-45deg"></i>
+                  <a href="">Find A Team Here</a>
+                </li>
+                <li>
+                  <i class="bi bi-link-45deg"></i>
+                  <a href="">Adjudicator Applications Here</a>
+                </li>
+                <li>
+                  <i class="bi bi-link-45deg"></i>
+                  <a href="">Volunteer Applications Here</a>
+                </li>
+                <li>
+                  <i class="bi bi-link-45deg"></i>
+                  <a href="">Open Mic Registration Here</a>
+                </li>
+              </ul>
+            </div>
           </div>
           <!-- <div id="flipdown" class="flipdown"></div> -->
-          <div id="details">
-            <h2 class="p-1 mx-auto text-center mt-4 w-75">
-              Event Details
-            </h2>
-            <div class="mx-auto w-75 py-3">
-              <div class="mb-2">
-                <i class="bi bi-calendar3"></i>
+          <div id="details" class="col-lg-9 mx-auto">
+            <h2 class="p-1 mx-auto text-center mt-4 w-75">Event Details</h2>
+            <div class="row mx-auto mt-lg-5 w-75 text-xl-center py-3">
+              <div class="mb-2 col-xl-4">
+                <i class="bi bi-calendar3 d-xl-block"></i>
                 <span class="ms-2">13th-14th July 2024</span>
               </div>
-              <div class="mb-2">
-                <i class="bi bi-geo-alt-fill"></i>
+              <div class="mb-2 col-xl-4">
+                <i class="bi bi-geo-alt-fill d-xl-block"></i>
                 <span class="ms-2">Indirapuram Public School, Indirapuram</span>
               </div>
-              <div>
-                <i class="bi bi-star-fill"></i>
+              <div class="col-xl-4">
+                <i class="bi bi-star-fill d-xl-block"></i>
                 <span class="ms-2">Registration Deadline</span>
               </div>
             </div>
           </div>
           <!-- end details -->
-          <div id="about">
+          <div id="about" class="col-lg-9 mx-auto">
             <h2 class="p-1 mx-auto text-center mt-4 w-75">About</h2>
-            <div class="w-75 mx-auto">
+            <div class="w-75 mx-auto mt-lg-5">
               <img
                 class="w-50 d-block mx-auto mt-4"
                 src="images/microphone.png"
                 alt="microphone image"
+                style="max-width: 260px"
               />
               <p class="text-center mt-3">
                 The Maha Behes ‘24 is the culmination of this Behes season,
@@ -221,13 +224,14 @@
             </div>
           </div>
           <!-- end about -->
-          <div id="the-ball">
+          <div id="the-ball" class="col-lg-9 mx-auto">
             <h2 class="p-1 mx-auto text-center mt-4 w-75">The Ball</h2>
             <div class="w-75 mx-auto">
               <img
                 class="w-50 d-block mx-auto mt-4"
                 src="images/disco-ball.gif"
                 alt="disco ball image"
+                style="max-width: 260px"
               />
               <p class="text-justify mt-3">
                 At the end of the intense debating on Day 1, We will all relax
@@ -242,9 +246,9 @@
             </div>
           </div>
           <!-- the ball end -->
-          <div id="contact">
+          <div id="contact" class="col-lg-9 mx-auto">
             <h2 class="p-1 mx-auto text-center mt-4 w-75">Contact</h2>
-            <div class="w-75 mx-auto">
+            <div class="w-75 mx-auto text-left mt-lg-5">
               <div class="mt-4">
                 <i class="d-inline-block bi bi-star-fill"></i>
                 <h6 class="d-inline text-center mb-3 mt-4">
@@ -268,13 +272,91 @@
               </div>
               <div class="mt-4">
                 <i class="bi bi-postcard-fill"></i>
-                <h6 class="d-inline text-center mb-3 mt-4">
-                  Snail Mail Us
-                </h6>
-                <p class="text-left mt-2">B-83, Sector 49 Noida
-                  Uttar Pradesh - 201304
-                  India</p>
+                <h6 class="d-inline text-center mb-3 mt-4">Snail Mail Us</h6>
+                <p class="text-left mt-2">
+                  B-83, Sector 49 Noida Uttar Pradesh - 201304 India
+                </p>
               </div>
+            </div>
+          </div>
+          <!-- Contact end -->
+          <div class="mb-4 col-lg-9 mx-auto" id="gallery">
+            <h2 class="p-1 mx-auto text-center mt-5 w-75">Gallery</h2>
+            <div class="w-75 mx-auto mt-4 mt-lg-5">
+              <img
+                width="90%"
+                class="d-block mx-auto mb-4"
+                src="images/bg-wall.jpg"
+                alt=""
+              />
+              <img
+                width="90%"
+                class="d-block mx-auto mb-4"
+                src="images/openmic2019.jpg"
+                alt=""
+              />
+              <img
+                width="90%"
+                class="d-block mx-auto mb-4"
+                src="images/mbfinal.jpg"
+                alt=""
+              />
+              <img
+                width="90%"
+                class="d-block mx-auto mb-4"
+                src="images/mbtrophies.jpg"
+                alt=""
+              />
+              <img
+                width="90%"
+                class="d-block mx-auto mb-4"
+                src="images/podium-stage.jpg"
+                alt=""
+              />
+              <iframe
+                class="mx-auto d-block mb-4"
+                width="90%"
+                height="350"
+                src="https://www.youtube.com/embed/P0zgxJc8yy8?si=u0tNqzGHYY2ENz5y"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              <iframe
+                class="d-block mx-auto"
+                width="90%"
+                height="350"
+                src="https://www.youtube.com/embed/ESPHETTgQbU?si=JZqtvzOzyaG8juJ_"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+          <div id="social-links">
+            <h5 class="text-center pb-2">Connect With Behes &#128153;</h5>
+            <div class="mx-auto text-center w-50 d-flex justify-content-evenly">
+              <a href="https://www.facebook.com/behesdebate/" target="_blank">
+                <i class="bi bi-facebook"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/behesdebate/"
+                target="_blank"
+                style="color: rgb(243, 83, 110)"
+              >
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a
+                href="https://www.youtube.com/c/BehesDebate"
+                target="_blank"
+                style="color: rgb(247, 36, 71)"
+              >
+                <i class="bi bi-youtube"></i>
+              </a>
             </div>
           </div>
         </div>
