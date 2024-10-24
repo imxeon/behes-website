@@ -205,6 +205,25 @@ HEADER
   outline: none;
 }
 
+/* MAHA BEHES LIST ITEM */
+
+/* @keyframes festive {
+  from {
+    color: rgb(24, 201, 255);
+  }
+  to {
+    color: #0077b5;
+  }
+} */
+
+#mahabehes-list {
+  color: rgb(95, 209, 244) !important;
+  /* border-color: rgb(24, 201, 255);
+  animation-name: festive;
+  animation-duration: 2s;
+  animation-iteration-count: infinite; */
+}
+
 /* LIST ITEMS HOVER COLOR */
 
 .navbar-default .nav > li > a:hover {
