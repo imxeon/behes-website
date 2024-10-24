@@ -43,9 +43,6 @@ main {
   background-image: url(../images/dot-grid.webp);
   border-radius: 25px;
   max-width: 1116px;
-  /* height: 6000px; */
-  /* margin-top: 10px; */
-  /* padding: 20px 0px; */
   border: 2px dashed rgb(177, 195, 230);
   border: 2px dashed rgb(112, 144, 207);
   /* add animation in border of main */
@@ -62,23 +59,25 @@ main small {
   font-weight: 500;
 }
 
+#registration-forms, #details, #about, #the-ball, #contact, #gallery {
+  padding-top: 73px;
+}
+
 #form-heading,
 h2 {
-  /* margin: auto; */
-  /* text-align: center; */
   color: #03456e;
   border-radius: 4px;
-  /* padding: 5px; */
   font-weight: 600;
   background-color: #9dd3f5;
-  /* width: 80%; */
 }
 
 #form-list {
-  /* margin: 22px auto 0 auto; */
   list-style-type: none;
   padding: 0;
-  /* width: 85%; */
+}
+
+#form-list li {
+  margin-top: 5px;
 }
 
 #form-list li a:hover {
@@ -105,14 +104,6 @@ h2 {
   text-decoration: none;
 }
 
-/* #contact i {
-    display: block;
-    text-align: center;
-    margin: auto;
-    font-size: 70px;
-    color: rgb(76, 75, 75)
-} */
-
 #contact h6 {
   color: rgb(0, 0, 0);
   font-weight: 700;
@@ -138,13 +129,13 @@ h2 {
 
 @media (min-width: 1024px) {
   main {
-    height: 5400px;
+    height: 6200px;
     box-shadow: 0px 0px 50px rgb(219, 219, 219);
   }
 }
 
 @media (min-width: 1200px) {
   main {
-    height: 5600px;
+    height: 6400px;
   }
 }

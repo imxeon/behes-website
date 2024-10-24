@@ -23,13 +23,17 @@
     />
     <!-- GOOGLE FONTS END -->
     <!-- COUNTDOWN TIMER -->
-    <link rel="stylesheet" type="text/css" href="css/flipdown.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="countdown-timer/dist/style.css"
+    />
     <!-- COUNTDOWN TIMER END -->
     <title>Maha Behes</title>
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-md fixed-top">
+      <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="../index.html">
             <img src="images/m-behes-logo.png" alt="Behes festive logo" />
@@ -64,27 +68,35 @@
             </div>
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
+                <li class="nav-item" data-bs-dismiss="offcanvas">
+                  <a class="nav-link" href="../index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item" data-bs-dismiss="offcanvas">
                   <a class="nav-link active" aria-current="page" href="#"
                     >Maha Behes</a
                   >
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" data-bs-dismiss="offcanvas">
                   <a class="nav-link" href="#registration-forms"
                     >Registration</a
                   >
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" data-bs-dismiss="offcanvas">
                   <a class="nav-link" href="#details">Details</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" data-bs-dismiss="offcanvas">
                   <a class="nav-link" href="#about">About</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#the-ball">The Ball</a>
+                <li class="nav-item" data-bs-dismiss="offcanvas">
+                  <a class="nav-link" href="#the-ball">The Ball🪩</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" data-bs-dismiss="offcanvas">
                   <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item" data-bs-dismiss="offcanvas">
+                  <a class="nav-link" href="#gallery">Gallery</a>
                 </li>
                 <!-- <li class="nav-item dropdown">
                   <a
@@ -121,7 +133,7 @@
         alt="mahabehes winter image"
       />
     </header>
-    <div class="container">
+    <div class="container" id="page-content">
       <main class="py-3 my-3 mx-auto d-sm-flex justify-content-around">
         <div class="row">
           <!-- row begins -->
@@ -137,61 +149,92 @@
               />
             </div>
           </div>
-          <div
-            id="registration-forms"
-            class="mt-4 mt-sm-0 mt-lg-2 col-lg-9 mx-auto"
-          >
-            <h2 id="form-heading" class="p-1 mx-auto text-center w-75">
+          <div id="registration-forms" class="col-lg-9 mx-auto">
+            <h2 id="form-heading" class="mt-3 p-1 mx-auto text-center w-75">
               Registration Forms
             </h2>
             <div class="mt-3 mt-lg-5 mx-auto w-75">
-              <ul class="mt-3" id="form-list">
+              <ul class="mt-4" id="form-list">
                 <li>
                   <i class="bi bi-link-45deg"></i>
-                  <a href="">Cubs Registration</a>
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLScafcRs4ZESIvYn_HAgpGHcqVjg0HZFEEmT4VCqsFcUrYt6ew/viewform?usp=sharing"
+                    target="_blank"
+                    >Cubs Registration</a
+                  >
                 </li>
                 <li>
                   <i class="bi bi-link-45deg"></i>
-                  <a href="">Lions Registration</a>
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSeHTeP7HZizkJHTzqLoPWPbvbH9D2dciPRi9k0VE8uLCfO5cQ/viewform?usp=sharing"
+                    target="_blank"
+                    >Lions Registration</a
+                  >
                 </li>
                 <li>
                   <i class="bi bi-link-45deg"></i>
-                  <a href="">School Registration</a>
+                  <a
+                    href="mb-offline-form/School Delegation Registration Form _ Maha Behes Winter '24 @Indirapuram Public School (21st-22nd December).xlsx"
+                    target="_blank"
+                    >School Registration</a
+                  >
                 </li>
                 <li>
                   <i class="bi bi-link-45deg"></i>
-                  <a href="">Vote For This Year's Behes Spirit Award</a>
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLScU-EW4TLWg1lUFwjHRfY1g3mz-FybZjEclwRvC4FWfQcf1Uw/viewform?usp=sharing"
+                    target="_blank"
+                    >Vote For This Year's Behes Spirit Award</a
+                  >
                 </li>
                 <li>
                   <i class="bi bi-link-45deg"></i>
-                  <a href="">Wild Card Applications Here</a>
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSfYO2pDcvO1aiMtXAosDsjplWUO214WdoEq3tjKR909Ek1xyg/viewform?usp=sharing"
+                    target="_blank"
+                    >Wild Card Applications Here</a
+                  >
                 </li>
                 <li>
                   <i class="bi bi-link-45deg"></i>
-                  <a href="">Find A Team Here</a>
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSft7ATcb7jPz1TJvCMxO2GlyTJqWyllnzVApwG5c-WXiRoDyA/viewform?usp=sharing"
+                    target="_blank"
+                    >Find A Team Here</a
+                  >
                 </li>
                 <li>
                   <i class="bi bi-link-45deg"></i>
-                  <a href="">Adjudicator Applications Here</a>
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLScb2dyI6IKgyDOMBK6quTmyX0iFVsgTJ3tHzexb58JbkYt6aQ/viewform?usp=sharing"
+                    target="_blank"
+                    >Adjudicator Applications Here</a
+                  >
                 </li>
-                <li>
+                <!-- <li>
                   <i class="bi bi-link-45deg"></i>
                   <a href="">Volunteer Applications Here</a>
-                </li>
+                </li> -->
                 <li>
                   <i class="bi bi-link-45deg"></i>
-                  <a href="">Open Mic Registration Here</a>
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSe8f2yPLyxyoYFsJ457xas1iewh6zeZuHY1PXpfbCYRQKcd5Q/viewform?usp=sharing"
+                    target="_blank"
+                    >Open Mic Registration Here</a
+                  >
                 </li>
               </ul>
             </div>
           </div>
-          <!-- <div id="flipdown" class="flipdown"></div> -->
+          <!-- End Registration -->
           <div id="details" class="col-lg-9 mx-auto">
-            <h2 class="p-1 mx-auto text-center mt-4 w-75">Event Details</h2>
+            <h2 class="p-1 mx-auto text-center mt-4 mb-4 w-75">
+              Event Details
+            </h2>
             <div class="row mx-auto mt-lg-5 w-75 text-xl-center py-3">
               <div class="mb-2 col-xl-4">
                 <i class="bi bi-calendar3 d-xl-block"></i>
-                <span class="ms-2">13th-14th July 2024</span>
+                <span class="ms-2">21st - 22nd Dec 2024</span>
               </div>
               <div class="mb-2 col-xl-4">
                 <i class="bi bi-geo-alt-fill d-xl-block"></i>
@@ -199,13 +242,14 @@
               </div>
               <div class="col-xl-4">
                 <i class="bi bi-star-fill d-xl-block"></i>
-                <span class="ms-2">Registration Deadline</span>
+                <span class="ms-2">Registration Deadline</span><br />
+                <span class="ms-3">15th Dec 24</span>
               </div>
             </div>
           </div>
           <!-- end details -->
           <div id="about" class="col-lg-9 mx-auto">
-            <h2 class="p-1 mx-auto text-center mt-4 w-75">About</h2>
+            <h2 class="p-1 mx-auto text-center mt-4 mb-4 w-75">About</h2>
             <div class="w-75 mx-auto mt-lg-5">
               <img
                 class="w-50 d-block mx-auto mt-4"
@@ -214,12 +258,14 @@
                 style="max-width: 260px"
               />
               <p class="text-center mt-3">
-                The Maha Behes ‘24 is the culmination of this Behes season,
-                where we are proud to invite some of our top budding debaters
-                from over 2000 participants this season. The Maha Behes ‘24 will
-                see people from five countries converge at Sri Venkateshwara
-                International School, Dwarka to battle it out for a shot at the
-                coveted title – a shot at being Maha Behes champions 2024!
+                Get ready for the grand finale of the Behes season— Winter Maha
+                Behes '24! We’re thrilled to bring together some of our finest
+                rising stars from over 2,000 participants this year. On December
+                21st and 22nd, the vibrant Indirapuram Public School will host
+                debaters from all corners of India, all vying for the
+                prestigious title of Maha Behes Champions 2024! Join us as these
+                talented debaters battle it out for glory in an exhilarating
+                showcase of wit and skill!
               </p>
             </div>
           </div>
@@ -233,15 +279,18 @@
                 alt="disco ball image"
                 style="max-width: 260px"
               />
-              <p class="text-justify mt-3">
-                At the end of the intense debating on Day 1, We will all relax
-                with some amazing performances and ofcourse dancing at our most
-                beloved Mahabehes Ball. Keep your dancing shoes ready, and carry
-                some clothes you can change to! (Or not!) Also, we heard that
-                the DJ is none other than the man whose name is synonymous with
-                excellence in the Behes Community, somebody who has not only
-                been the best debater, but has also proceeded to train the best
-                of adjudicators of the circuit. We surely can't wait! Can you?
+              <p class="text-center mt-3">
+                After a thrilling Day 1 of intense debates, it’s time to unwind
+                and celebrate at the much-anticipated Maha Behes Ball! Get ready
+                to dance the night away—don’t forget to pack your dancing shoes
+                and a change of clothes (or not!). This year, like always......
+                we’re excited to feature a Behes Open Mic, where you can
+                showcase your talents and share your voice with fellow debaters.
+                Plus, there will be a secret DJ session led by someone revered
+                in the Behes community—prepare for an unforgettable night of
+                surprises and electrifying music! We can’t wait for an evening
+                filled with performances, laughter, and celebration and we're
+                sure you can't either.
               </p>
             </div>
           </div>
@@ -337,6 +386,27 @@
               ></iframe>
             </div>
           </div>
+
+          <!-- Countdown timer -->
+          <div class="countdown-timer" class="text-center">
+            <h5 id="headline"></h5>
+            <div id="countdown">
+              <ul>
+                <li><span id="days"></span>days</li>
+                <li><span id="hours"></span>Hours</li>
+                <li><span id="minutes"></span>Minutes</li>
+                <li><span id="seconds"></span>Seconds</li>
+              </ul>
+            </div>
+            <div id="content" class="emoji">
+              <span>🎙️</span>
+              <span>🎉</span>
+              <span>🥳</span>
+              <!-- <span>🎂</span> -->
+            </div>
+          </div>
+          <!-- end -->
+
           <div id="social-links">
             <h5 class="text-center pb-2">Connect With Behes &#128153;</h5>
             <div class="mx-auto text-center w-50 d-flex justify-content-evenly">
@@ -365,9 +435,6 @@
       <footer></footer>
     </div>
     <script src="js/bootstrap.bundle.min.js"></script>
-    <!-- COUNTDOWN TIMER -->
-    <script type="text/javascript" src="js/flipdown.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-    <!-- COUNTDOWN TIMER END -->
+    <script src="countdown-timer/dist/script.js"></script>
   </body>
 </html>
