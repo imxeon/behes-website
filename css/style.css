@@ -205,24 +205,15 @@ HEADER
   outline: none;
 }
 
-/* MAHA BEHES LIST ITEM */
-
-/* @keyframes festive {
-  from {
-    color: rgb(24, 201, 255);
-  }
-  to {
-    color: #0077b5;
-  }
-} */
+/******************************************
+MAHA BEHES WINTER NAV LIST LINK
+******************************************/
 
 #mahabehes-list {
   color: rgb(95, 209, 244) !important;
-  /* border-color: rgb(24, 201, 255);
-  animation-name: festive;
-  animation-duration: 2s;
-  animation-iteration-count: infinite; */
 }
+
+/* ********* END ********** */
 
 /* LIST ITEMS HOVER COLOR */
 
@@ -1209,6 +1200,30 @@ COURSE MODULES
 
 /* ------------END----------------- */
 
+/******************************************
+MAHA BEHES WINTER CALENDAR CARD
+******************************************/
+
+@keyframes border-animation {
+  from {
+    border: 5px solid rgb(219, 238, 255);
+  }
+  to {
+    border: 5px solid rgb(112, 182, 249);
+  }
+}
+
+#mahabehes-border {
+  /* padding: 5px; */
+  border: 5px solid rgb(219, 238, 255);
+  animation-name: border-animation;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+}
+
+/* ********* END ********** */
+
 .calendar-details p {
   padding-bottom: 0;
   margin-bottom: 0;
@@ -2182,6 +2197,34 @@ BUTTONS
   cursor: pointer;
   border-bottom: 3px solid #f6b318;
 }
+
+/******************************************
+MAHA BEHES WINTER CALENDAR BUTTON
+******************************************/
+
+@keyframes button-animation {
+  0% {
+    border: 1px solid #ffda61;
+    background-color: #f6b318;
+  }
+  100% {
+    border: 1px solid rgb(74, 180, 215);
+    background-color: rgb(25, 159, 204);
+  }
+}
+
+#mahabehes-cal-button {
+  border: 1px solid #ffda61;
+  background-color: #ffc300;
+  border-radius: 3px;
+  animation-name: button-animation;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+}
+
+/* ********* END ********** */
 
 /************************************
 MICS
