@@ -999,17 +999,29 @@ SECTIONS
   font-size: 10px;
   text-transform: uppercase;
   color: #ffffff;
-  letter-spacing: 3px;
+  /* letter-spacing: 3px; */
+  letter-spacing: 2px;
   z-index: 11;
   right: 0;
   margin: auto;
   text-align: center;
 }
 
+/* ORIGINAL SLIDER BOTTOM ICON STYLING */
+
+/* 
 .slider-bottom i {
   display: block;
   font-size: 14px;
   padding: 10px;
+} */
+
+/* END */
+
+.slider-bottom a {
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 900;
 }
 
 .home-text-wrapper {
