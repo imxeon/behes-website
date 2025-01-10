@@ -1332,7 +1332,7 @@ jQuery(document).ready(function ($) {
     // ogg: "upload/preview.ogg", //Path to video ogg format
     webm: "hero-video/hero-video.webm", //Path to video webm format
     video_ratio: 1.7778, // width/height -> If none provided sizing of the video is set to adjust
-    fallback_image: "hero-video/fallback-trophies.png", //Fallback image path
+    fallback_image: "hero-video/fallback-trophies.webp", //Fallback image path
     priority: "html5", //Priority for html5 (if set to flash and tested locally will give a flash security error)
   });
 });
