@@ -1700,6 +1700,23 @@ BLOG
 /******************************************
 TESTIMONIAL
 ******************************************/
+@media (max-width: 430px) {
+  .testimonial-section-space {
+    height: 1150px;
+  }
+}
+
+@media (min-width: 768px) {
+  .testimonial-section-space {
+    height: 900px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .testimonial-section-space {
+    height: 780px;
+  }
+}
 
 .testimonial {
   border: 1px solid #cac9c9;
@@ -1743,13 +1760,17 @@ TESTIMONIAL
   max-width: 40px;
 }
 
+.testimonial .user-placeholder {
+  font-size: 32px;
+}
+
 .testimonial:after {
   content: "\f10e";
   padding: 5px;
   font-family: FontAwesome;
   position: absolute;
   bottom: 0px;
-  color: #f6f6f6;
+  color: #dadada;
   font-size: 21px;
   right: 10px;
 }
@@ -1760,7 +1781,7 @@ TESTIMONIAL
   font-family: FontAwesome;
   position: absolute;
   top: 0;
-  color: #f6f6f6;
+  color: #dadada;
   font-size: 21px;
   left: 10px;
 }
@@ -1780,6 +1801,20 @@ TESTIMONIAL
   line-height: 1;
   display: inline-block;
   font-size: 15px;
+}
+
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+
+.testimonial-source .fb {
+  color: #1877f2;
+  font-size: 19px;
+}
+
+.testimonial-source img {
+  width: 26px;
 }
 
 .p120 {
